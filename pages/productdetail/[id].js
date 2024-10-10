@@ -13,7 +13,7 @@ export default function Productdetail() {
   const route = useRouter()
  
 
-  const onedata = useSelector((state) => state.counter.product).filter((item) => item.id == route.query.id && item)[0]
+  const onedata = useSelector((state) => state.counter.product).filter((item) => item.id == props.id && item)[0]
   
   return (
     <Box className="flex flex-col ">
@@ -88,4 +88,12 @@ export default function Productdetail() {
       </ThemeProvider>
     </Box>
   );
+}
+
+export async function getServerSideProps(context){
+  return{
+    props:{
+        id:context.params.uid
+    }
+}
 }
