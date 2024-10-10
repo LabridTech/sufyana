@@ -59,7 +59,7 @@ export default function Aboutus() {
       <ThemeProvider theme={theme}>
         <Container className="flex flex-col items-center ">
           <Typography variant="h5" color="primary" className="py-10">
-          What Makes Us Unique
+            What Makes Us Unique
           </Typography>
           <Box className="flex justify-center">
             <Box className="flex flex-col md:flex-row justify-center  w-4/5">
@@ -96,8 +96,8 @@ export default function Aboutus() {
                   We understand that choosing the perfect scent is a deeply
                   personal experience. Our team of fragrance experts is always
                   ready to assist you in finding a fragrance that complements
-                  your personality and style. Whether you're exploring new
-                  scents or seeking to rediscover an old favorite, we're here to
+                  your personality and style. Whether you are exploring new
+                  scents or seeking to rediscover an old favorite, we are here to
                   guide you every step of the way.
                 </Typography>
               </Container>
