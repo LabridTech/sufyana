@@ -25,7 +25,7 @@ export function Navbar(){
               <Typography
               variant="h4"
               component="div"
-              className='text-#FFD700 font-itc font-bold'
+              className='!text-golden font-itc font-bold'
               
             >
               SUFIANAH
@@ -33,13 +33,13 @@ export function Navbar(){
             </IconButton>
            <Box component="div" className='flex mb-5 sm:mb-0 justify-center sm:justify-evenly'>
             
-            <Button onClick={()=>{route.push('/product')}}  className='text-white' >
+            <Button onClick={()=>{route.push('/product')}}  className='!text-white' >
                 Shop
             </Button>
-            <Button onClick={()=> route.push('/aboutus') } className='text-white' >
+            <Button onClick={()=> route.push('/aboutus') } className='!text-white' >
                 About us
             </Button>
-            <Button onClick={()=> route.push('/ourservice') } className='text-white' >
+            <Button onClick={()=> route.push('/ourservice') } className='!text-white' >
                 Service
             </Button>
           </Box>
