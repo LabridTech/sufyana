@@ -7,9 +7,7 @@ import { useRouter } from "next/router";
 import { addorder } from "@/redux/counterSlice";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
-function createData(id, name, image, liters, qty, price) {
-  return { id, name, image, liters, qty, price };
-}
+
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 

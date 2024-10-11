@@ -7,9 +7,10 @@ import {
   ThemeProvider,
   Typography,
 } from "@mui/material";
-import Cardtable from "@/components/Carttable";
+
 import { ProductSec } from "@/components/ProductSection";
 import { useSelector, useDispatch } from 'react-redux'
+import Cardtable from "@/components/Carttable";
 
 
 export default function Productdetail(props) {

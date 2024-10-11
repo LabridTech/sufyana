@@ -1,8 +1,8 @@
 import { Box, ThemeProvider, Typography,  } from "@mui/material";
 import * as React from "react";
-import{ Shopcard } from "@/components/ShopCard";
-import { Offercard } from "@/components/OfferCard";
 import { theme } from "@/constant/color";
+import Shopcard from "@/components/ShopCard";
+import { Offercard } from "@/components/OfferCard";
 
 
 export default function Shop() {
