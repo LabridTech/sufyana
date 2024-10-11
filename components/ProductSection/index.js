@@ -1,5 +1,5 @@
 import { Box, Container, Grid2, ThemeProvider, Typography } from "@mui/material";
-import { theme } from "./color";
+import { theme } from "../../constant/color";
 import { Product } from "./Product";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';

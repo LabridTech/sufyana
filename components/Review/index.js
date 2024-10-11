@@ -1,6 +1,6 @@
 import { Box,  Stack, ThemeProvider, Typography } from "@mui/material";
 import * as React from "react";
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import Comment from "./Comment";
 
 export default function Review() {

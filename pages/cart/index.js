@@ -1,4 +1,4 @@
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import {
   Box,
   Button,
@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import Cardtable from "@/components/Carttable";
-import { ProductSec } from "@/components/productsection";
+import { ProductSec } from "@/components/ProductSection";
 import { useSelector, useDispatch } from 'react-redux'
 
 

@@ -1,5 +1,5 @@
 import { Box, ThemeProvider, Typography } from "@mui/material";
-import { theme } from "./color";
+import { theme } from "../../constant/color";
 
 export function Welcome() {
   return (

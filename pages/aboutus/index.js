@@ -1,4 +1,4 @@
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import { Box, Container, ThemeProvider, Typography } from "@mui/material";
 
 export default function Aboutus() {

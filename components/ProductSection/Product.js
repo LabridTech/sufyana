@@ -1,5 +1,5 @@
+import { theme } from "@/constant/color";
 import { Box, Container, ThemeProvider, Typography } from "@mui/material";
-import { theme } from "./color";
 import Link from "next/link";
 
 export function Product(props) {

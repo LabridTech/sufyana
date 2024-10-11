@@ -1,6 +1,5 @@
 import { Box, Container, ThemeProvider, Typography } from "@mui/material";
-import { theme } from "./color";
-import { Product } from "@/components/Product";
+import { theme } from "../../constant/color";
 import Divider from "@mui/material/Divider";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -10,6 +9,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import * as React from "react";
 import { useSelector, useDispatch } from 'react-redux'
+import { Product } from "../ProductSection/Product";
 
 export default  function Shopcard(props){
 

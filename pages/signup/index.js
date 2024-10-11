@@ -1,4 +1,4 @@
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import {
   Box,
   Container,
@@ -16,7 +16,7 @@ import MenuItem from "@mui/material/MenuItem";
 import PhoneInput from "react-phone-input-2";
 import * as React from "react";
 import "react-phone-input-2/lib/style.css";
-import { setuser } from "@/lib/counterSlice";
+import { setuser } from "@/redux/counterSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useRouter } from "next/router";
 import Link from "next/link";

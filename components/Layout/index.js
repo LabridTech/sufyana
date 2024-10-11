@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import { Navbar } from "./nav";
-import { Footer } from "./Footer";
+import { Navbar } from "../Navbar";
+import { Footer } from "../Footer";
 import Head from "next/head";
 import { useRouter } from "next/router";
 

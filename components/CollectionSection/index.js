@@ -5,7 +5,7 @@ import {
   ThemeProvider,
   Typography,
 } from "@mui/material";
-import { theme } from "./color";
+import { theme } from "@/constant/color";
 import { CollectionCard } from "./Collection";
 
 export function CollectionSec() {

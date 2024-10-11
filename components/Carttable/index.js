@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import { Box, Button, Container, Typography } from "@mui/material";
 import { useRouter } from "next/router";
-import { addorder } from "@/lib/counterSlice";
+import { addorder } from "@/redux/counterSlice";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 function createData(id, name, image, liters, qty, price) {

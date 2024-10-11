@@ -1,4 +1,4 @@
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import * as React from "react";
 import {
   Box,
@@ -16,7 +16,7 @@ import Divider from "@mui/material/Divider";
 import { Circle } from "@mui/icons-material";
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
-import { addcart } from "@/lib/counterSlice";
+import { addcart } from "@/redux/counterSlice";
 import { useRef } from "react";
 import { useRouter } from "next/router";
 

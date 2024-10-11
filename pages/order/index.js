@@ -1,4 +1,4 @@
-import { theme } from "@/components/color";
+import { theme } from "@/constant/color";
 import {
   Box,
   Button,
@@ -12,7 +12,7 @@ import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import * as React from "react"
 import { useRouter } from "next/router";
-import { removeorder } from "@/lib/counterSlice";
+import { removeorder } from "@/redux/counterSlice";
 import axios from 'axios';
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";

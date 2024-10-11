@@ -1,7 +1,7 @@
 import { Container, Typography  } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import { theme } from "./color";
+import { theme } from "../../constant/color";
 import { ThemeProvider } from "@mui/material/styles";
 
 export function Offercard() {

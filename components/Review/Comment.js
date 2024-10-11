@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import Image from "next/image";
-import { theme } from "./color";
+import { theme } from "../../constant/color";
 
 export default function Comment() {
   return (

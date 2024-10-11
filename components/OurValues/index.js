@@ -2,7 +2,7 @@ import { Container, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Image from "next/image";
 import Button from "@mui/material/Button";
-import { theme } from "./color";
+import { theme } from "../../constant/color";
 import { ThemeProvider } from "@mui/material/styles";
 
 export function Our() {

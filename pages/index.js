@@ -1,10 +1,10 @@
 import Box from "@mui/material/Box";
-import { Banner } from "@/components/banner";
-import { Welcome } from "@/components/welcome";
-import { Our } from "@/components/our";
-import { ProductSec } from "@/components/productsection";
+import { Banner } from "@/components/Banner";
+import { Welcome } from "@/components/Welcome";
+import { Our } from "@/components/OurValues";
+import { ProductSec } from "@/components/ProductSection";
 import { CollectionSec } from "@/components/collectionsection";
-import { add, setuser } from "../lib/counterSlice";
+import { add, setuser } from "../redux/counterSlice";
 import * as React from "react";
 import axios from "axios";
 import { useSelector, useDispatch } from "react-redux";

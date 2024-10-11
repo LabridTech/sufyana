@@ -1,5 +1,5 @@
-import { theme } from "@/components/color";
-import { setauth } from "@/lib/counterSlice";
+import { theme } from "@/constant/color";
+import { setauth } from "@/redux/counterSlice";
 import {
   Box,
   Container,
