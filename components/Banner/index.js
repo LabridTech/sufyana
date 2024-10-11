@@ -9,9 +9,9 @@ export function Banner() {
   return (
     <Box
       component="div"
-      className="bg-gradient-to-r to-black from-10% via-40% via-zinc-800 to-70%  from-black !h-full !sm:h-102 justify-around flex flex-col sm:my-5 items-center sm:flex-row"
+      className="bg-gradient-to-r to-black from-10% via-40% via-zinc-800 to-70%  from-black h-full sm:h-102 justify-around flex flex-col sm:my-5 items-center sm:flex-row"
     >
-      <Container className="flex justify-between flex-col items-around  w-full sm:w-1/2  ">
+      <Container className="flex justify-between flex-col items-around  !w-full !sm:w-1/2  ">
         <Box>
           <Typography className="!text-white" variant="h2">
             Elevate Your Spirit with Victory Scented Fragrances!

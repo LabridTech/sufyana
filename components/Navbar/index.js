@@ -25,7 +25,7 @@ export function Navbar(){
               <Typography
               variant="h4"
               component="div"
-              className='!!text-golden font-itc font-bold'
+              className='!text-golden font-itc font-bold'
               
             >
               SUFIANAH
@@ -46,9 +46,9 @@ export function Navbar(){
   
           <Box component="div" className='flex justify-center sm:justify-evenly items-center '>
             
-            <SearchIcon className='fill-white mx-1' />
-            <FavoriteBorderOutlinedIcon onClick={()=> {event.preventDefault, route.push('/login')} } className='fill-white mx-1 ' />
-            <ShoppingCartOutlinedIcon onClick={()=> route.push('/cart') } className='fill-white mx-1 ' />
+            <SearchIcon className='!fill-white mx-1' />
+            <FavoriteBorderOutlinedIcon onClick={()=> {event.preventDefault, route.push('/login')} } className='!fill-white mx-1 ' />
+            <ShoppingCartOutlinedIcon onClick={()=> route.push('/cart') } className='!fill-white mx-1 ' />
           </Box>
   
               

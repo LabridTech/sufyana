@@ -33,7 +33,7 @@ export default  function Shopcard(props){
       <Container className="w-3/4 my-10">
         <ThemeProvider theme={theme}>
           <FormControl className="w-36" >
-            <InputLabel className="text-white w-36" id="demo-simple-select-label">
+            <InputLabel className="!text-white w-36" id="demo-simple-select-label">
               Collection
             </InputLabel>
             <Select
@@ -65,7 +65,7 @@ export default  function Shopcard(props){
             </Select>
             </FormControl>
             <FormControl className="w-24" >
-            <InputLabel className="text-white" id="demo-simple-select-label">
+            <InputLabel className="!text-white" id="demo-simple-select-label">
               Gender
             </InputLabel>
             <Select
