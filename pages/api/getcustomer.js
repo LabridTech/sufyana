@@ -1,8 +1,9 @@
 import * as XLSX from 'xlsx';
-import * as fs from 'fs'
+import path from 'path';
 
 export default function handler(req, res) {
-  const workbook = XLSX.readFile('Book1.xlsx')
+  const p=path.join(process.cwd(),'Book1.xlsx');
+  const workbook = XLSX.readFile(p)
    const workSheetname = workbook.SheetNames[2]
    const worksheet = workbook.Sheets[workSheetname];
    const filedata = XLSX.utils.sheet_to_json(worksheet , {header : 1} )
