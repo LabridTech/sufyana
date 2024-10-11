@@ -69,23 +69,23 @@ export default function Cardtable(props) {
                 height={60}
               ></Image>
               <Container>
-                <Typography variant="h6" className="text-white">
+                <Typography variant="h6" className="!text-white">
                   {row.name}
                 </Typography>
-                <Typography variant="body" className="text-white">
+                <Typography variant="body" className="!text-white">
                   {row.collection}
                 </Typography>
               </Container>
             </Container>
             <Container className="flex space-y-4 flex-col md:flex-row` items-center">
               <Container style={{padding : 0}} className="flex w-1/2 items-center flex-col">
-                <Typography variant="subtitle1" className="text-white">
+                <Typography variant="subtitle1" className="!text-white">
                   {"Rs " + row.price}
                 </Typography>
                 <DeleteOutlineIcon className="fill-white" ></DeleteOutlineIcon>
               </Container>
 
-              <Typography variant="subtitle2" className="text-white">
+              <Typography variant="subtitle2" className="!text-white">
                 {"Quantity : " + row.qty}
               </Typography>
             </Container>

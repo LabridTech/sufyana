@@ -35,7 +35,7 @@ export default function Login() {
           color="inherit"
           aria-label="open drawer"
           edge="start"
-          className="text-golden"
+          className="!text-golden"
         >
           <Image alt="logo" src="/suf.png" width={90} height={90} />
         </IconButton>

@@ -119,7 +119,7 @@ export default function Order() {
         <Container className="flex justify-between my-10">
           <Box>
             <FormControl className="w-48" >
-            <InputLabel className="text-white " id="demo-simple-select-label">
+            <InputLabel className="!text-white " id="demo-simple-select-label">
             Payment Method
             </InputLabel>
             <Select

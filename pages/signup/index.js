@@ -50,7 +50,7 @@ export default function Login() {
           color="inherit"
           aria-label="open drawer"
           edge="start"
-          className="text-golden"
+          className="!text-golden"
         >
           <Image alt="logo" src="/suf.png" width={90} height={90} />
         </IconButton>
@@ -137,7 +137,7 @@ export default function Login() {
             </Typography>
           </Container>
           <FormControl style={{ width: "100%" }}>
-            <InputLabel id="country-label" className="text-white">
+            <InputLabel id="country-label" className="!text-white">
               Country
             </InputLabel>
             <Select
@@ -238,7 +238,7 @@ export default function Login() {
             />
           </Container>
           <Container style={{ padding: 0 }}>
-            <label className="text-white"> Phone No * </label>
+            <label className="!text-white"> Phone No * </label>
             <PhoneInput
               country="pk"
               value={value}

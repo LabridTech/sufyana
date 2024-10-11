@@ -17,7 +17,7 @@ export function Navbar(){
               color="inherit"
               aria-label="open drawer"
               edge="start"
-              className='text-golden'
+              className='!text-golden'
               onClick={()=> route.push('/') }
             >
               <Image alt='logo' src='/suf.png'  width={90} height={90} />
@@ -25,7 +25,7 @@ export function Navbar(){
               <Typography
               variant="h4"
               component="div"
-              className='!text-golden font-itc font-bold'
+              className='!!text-golden font-itc font-bold'
               
             >
               SUFIANAH
