@@ -56,8 +56,8 @@ export default function Productdetailcard(props) {
               color: "white",
             }}
           >
-            <Circle className="w-4 mx-2 border-2 rounded-full"></Circle>
-            <Circle className="w-4"></Circle>
+            <Circle className="!w-5 mx-2 border-2 !rounded-full"></Circle>
+            <Circle className="!w-5"></Circle>
           </Container>
         </Container>
 
@@ -104,7 +104,7 @@ export default function Productdetailcard(props) {
             </Container>
           </Box>
 
-          <Typography variant="subtitle2" className="my-5" color="primary">
+          <Typography variant="subtitle2" className="!my-5" color="primary">
             {"Rs " + props.product.price}
           </Typography>
 
@@ -143,7 +143,7 @@ export default function Productdetailcard(props) {
                 ),
                 route.push("/cart");
             }}
-            className="bg-white my-10"
+            className="!bg-white !my-10"
           >
             Add To Cart
           </Button>
