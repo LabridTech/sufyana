@@ -35,9 +35,9 @@ export function Footer() {
         </Container>
 
         <Container className="justify-start flex" >
-          <FacebookIcon className="fill-blue-800 w-8 h-8 m-2" ></FacebookIcon>
-          <InstagramIcon className="fill-pink-500 w-8 h-8 m-2 " ></InstagramIcon>
-          <LinkedInIcon className="fill-blue-300 w-8 h-8 m-2 " ></LinkedInIcon>
+          <FacebookIcon className="!fill-blue-800 w-8 h-8 m-2" ></FacebookIcon>
+          <InstagramIcon className="!fill-pink-500 w-8 h-8 m-2 " ></InstagramIcon>
+          <LinkedInIcon className="!fill-blue-300 w-8 h-8 m-2 " ></LinkedInIcon>
         </Container>
       </IconButton>
       <Stack sx={{ marginLeft: 1, alignItems: "flex-start" }}>

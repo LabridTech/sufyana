@@ -35,10 +35,10 @@ export default function Productdetail(props) {
       <Productdetailcard product={onedata} ></Productdetailcard>
       <ThemeProvider theme={theme}>
         <Container className="flex flex-col items-center1 w-4/5" >
-          <Typography variant="h5" color="secondary" className="py-10">
+          <Typography variant="h4" color="secondary" className="py-10">
             Product Details
           </Typography>
-          <Typography color="secondary" className="text-xs ">
+          <Typography color="secondary" className="text-sm ">
             Step into a world of unparalleled opulence with Luxurious Elixir, an
             exquisite fragrance that weaves an enchanting symphony of gold and
             luxury. This gilded elixir is a celebration of sophistication,
@@ -47,15 +47,15 @@ export default function Productdetail(props) {
           </Typography>
         </Container>
         <Container className="flex flex-col items-center w-4/5"  >
-          <Typography variant="h5" color="secondary" className="py-10">
+          <Typography variant="h4" color="secondary" className="py-10">
             Key Notes 
           </Typography>
           <Box sx={{ width : '100%'}} className="flex flex-col md:flex-row justify-around ">
             <Container className="flex flex-col items-center ">
-              <Typography variant="h6" color="secondary" className="py-2">
+              <Typography variant="h5" color="secondary" className="py-2">
                 Top Note
               </Typography>
-              <Typography color="secondary" className="text-xs">
+              <Typography color="secondary" className="text-sm">
                 {onedata.topnote}
               </Typography>
               <Image
@@ -67,10 +67,10 @@ export default function Productdetail(props) {
               ></Image>
             </Container>
             <Container className="flex flex-col items-center">
-              <Typography variant="h6" color="secondary" className="py-2">
+              <Typography variant="h5" color="secondary" className="py-2">
                 Heart Note
               </Typography>
-              <Typography color="secondary" className="text-xs   ">
+              <Typography color="secondary" className="text-sm   ">
                 {onedata.heartnote}
               </Typography>
               <Image
@@ -82,10 +82,10 @@ export default function Productdetail(props) {
               ></Image>
             </Container>
             <Container className="flex flex-col items-center">
-              <Typography variant="h6" color="secondary" className="py-2">
+              <Typography variant="h5" color="secondary" className="py-2">
                 Base Note
               </Typography>
-              <Typography color="secondary" className="text-xs ">
+              <Typography color="secondary" className="text-sm ">
                 {onedata.basenote}
               </Typography>
               <Image

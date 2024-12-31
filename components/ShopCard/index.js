@@ -99,7 +99,7 @@ export default  function Shopcard(props){
           </FormControl>
         </ThemeProvider>
       </Container>
-      <Container className="grid sm:grid-cols-3 md:grid-cols-6 gap-5 border-blue-500 items-center justify-evenly p-10 ">
+      <Container className="grid sm:grid-cols-3 md:grid-cols-5 gap-5 border-blue-500 items-center justify-evenly p-10 ">
        
         {data.map((item=>  <Product key={item.id} product={item}></Product>))}
         

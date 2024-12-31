@@ -6,19 +6,15 @@ export function Product(props) {
   return (
     <Box
       component="div"
-      className="bg-gradient-to-r to-neutral-900 from-20% via-40% via-zinc-800 to-60% from-neutral-900 w-40 h-80 flex flex-col items-center justify-center rounded-2xl "
+      className="bg-gradient-to-r to-neutral-900 from-20% via-40% via-zinc-800 to-60% from-neutral-900 w-52 h-80  flex flex-col  justify-evenly rounded-2xl "
     >
       <Link href={"/productdetail/" + props.product.id}>
-        <img src={props.product.image} className="h-48" />
+        <img src={props.product.image} className="my-2 w-96" />
         <ThemeProvider theme={theme}>
-          <Typography
-            color="secondary"
-            varient="subtitle1"
-            className="text-center"
-          >
+          <Typography color="secondary" varient="h5" className="text-center">
             {props.product.name}
           </Typography>
-          <Container className="flex flex-row justifiy-between ">
+          <Container className="flex flex-row justify-evenly ">
             <Typography
               color="primary"
               varient="subtitle3"

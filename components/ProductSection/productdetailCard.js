@@ -47,7 +47,7 @@ export default function Productdetailcard(props) {
             alignItems: "center",
           }}
         >
-          <img src={props.product.image} className="h-dvh" />
+          <img src={props.product.image} className="  rounded-xl h-dvh" />
           <Container
             style={{
               width: "auto",
@@ -56,16 +56,16 @@ export default function Productdetailcard(props) {
               color: "white",
             }}
           >
-            <Circle className="!w-5 mx-2 border-2 !rounded-full"></Circle>
-            <Circle className="!w-5"></Circle>
+            {/* <Circle className="!w-5 mx-2 border-2 !rounded-full"></Circle>
+            <Circle className="!w-5"></Circle> */}
           </Container>
         </Container>
 
         <Box className="flex flex-col h-dvh items-center sm:items-start sm:mx-1 justifiy-evenly w-96   ">
-          <Typography variant="h5" color="secondary" className="py-10">
+          <Typography variant="h4" color="secondary" className="py-10">
             {props.product.name}
           </Typography>
-          <Typography color="secondary" className="text-xs mx-10 sm:mx-1 ">
+          <Typography color="secondary" className="text-md mx-10 sm:mx-1 ">
             {props.product.detail}
           </Typography>
           <Rating
@@ -79,7 +79,7 @@ export default function Productdetailcard(props) {
             value={2}
             readOnly
           />
-          <Box className="my-10 flex">
+          <Box className="my-10 gap-2 flex">
             <Container style={{ margin: 0, padding: 0, width: "auto" }}>
               <Image
                 alt="small bottle"
@@ -104,7 +104,7 @@ export default function Productdetailcard(props) {
             </Container>
           </Box>
 
-          <Typography variant="subtitle2" className="!my-5" color="primary">
+          <Typography variant="subtitle1" className="!my-5" color="primary">
             {"Rs " + props.product.price}
           </Typography>
 
